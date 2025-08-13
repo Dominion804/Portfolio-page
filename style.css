@@ -23,6 +23,7 @@
     margin-left: 100px;
     height: 500px;
     width: 1250px;
+    z-index:-1;
 }
 
 
@@ -442,4 +443,5 @@
         margin-left: 0px;
         ;
     }
+
 }
