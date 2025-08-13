@@ -1,0 +1,445 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.toptxt {
+    position: relative;
+    top: 100px;
+    width: 550px;
+
+}
+
+.herosection h3 {
+    font-weight: 200;
+    margin: 0;
+}
+
+.herosection {
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: 100px;
+    height: 500px;
+    width: 1250px;
+}
+
+
+.herosection h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+
+
+}
+
+
+.herosection>p {
+    font-weight: 550;
+    text-indent: 20px;
+
+
+}
+
+.flex-container {
+    display: flex;
+    gap: 40px;
+    flex-flow: wrap row;
+
+}
+
+.flex-container a {
+    text-decoration: none;
+
+
+}
+
+.D0 a {
+    margin-left: 100px;
+    font-size: 40px;
+    margin-right: 400px;
+    color: #f5c729;
+    font-weight: 600;
+}
+
+.class {
+    margin-top: 15px;
+
+}
+
+.class a {
+
+    font-size: 18px;
+
+}
+
+.class a:hover {
+    color: #f5c729;
+}
+
+.skills {
+    float: right;
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 100px;
+    width: 500px;
+}
+
+#picture {
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    right: 380px;
+    top: -60px;
+
+}
+
+.span {
+    font-weight: 550;
+    font-size: 35px;
+}
+
+.skillsprojects {
+    float: left;
+    margin-left: 100px;
+    width: 1250px;
+
+}
+
+.projects {
+    float: right;
+    margin-top: 70px;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+/* styling my Services */
+
+.span {
+    font-size: 40px;
+    font-weight: 550;
+    color: #f5c729
+}
+
+
+.services {
+
+    text-decoration: underline;
+    text-underline-offset: 12px;
+    color: white !important;
+}
+
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+    height: 70vh;
+    margin: 0;
+
+
+}
+
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #f5c729;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+
+
+.circle #circle1 {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    margin: 0;
+
+}
+
+.circle #circle2 {
+    position: relative;
+    top: 100px;
+    left: 60px;
+    margin: 0;
+}
+
+.circle #circle3 {
+    position: relative;
+    top: 110px;
+    left: -40px;
+    margin: 0;
+}
+
+.circle span {
+    font-size: 30px;
+}
+
+.circle #span2 {
+    position: relative;
+    top: 150px;
+    left: 117px;
+
+}
+
+.circle span:hover {
+    color: #f5c729;
+}
+
+.circle #span1 {
+    position: relative;
+    top: 150px;
+    left: 105px;
+}
+
+.circle #span3 {
+    position: relative;
+    top: 165px;
+    left: 75px;
+}
+
+
+
+.Portfoliopage {
+    width: 1250px;
+    margin-left: 100px;
+    margin-top: 600px;
+    height: 100px;
+
+}
+
+.skillsprojects button {
+    height: 60px;
+    width: 165px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(37, 47, 45);
+    border: 0;
+    margin-left: -100px;
+
+}
+
+.skillsprojects .button {
+    text-align: center;
+}
+
+.skillsprojects button:hover {
+    background-color: #f5c729;
+}
+
+/*Styling portfolio section */
+
+.element {
+    text-align: center;
+    margin-left: -100px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 20px;
+}
+
+.grid-container .img1 {
+    width: 720px;
+    height: 350px
+}
+
+.grid-container .img2 {
+    width: 500px;
+    height: 350px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.grid-container .img3 {
+    width: 500px;
+    height: 350px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+@media (max-width:680px) {
+
+    body {
+        margin-left: 50px;
+    }
+
+    .herosection {
+        margin-left: 10px;
+        width: 700px;
+        height: 350px;
+        margin-top: 200px;
+
+    }
+
+    .herosection h1 {
+        font-size: 2rem
+    }
+
+    .herosection h3 {
+        font-size: 1rem;
+    }
+
+    #picture {
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: -150px;
+        left: -550px;
+        margin-top: -20px;
+    }
+
+    .skillsprojects {
+        margin-left: 10px;
+        width: fit-content;
+    }
+
+    .skillsprojects span {
+        font-size: 33px;
+    }
+
+    .circle {
+        width: 150px;
+        height: 150px;
+        float: left;
+
+    }
+
+    .flex-container2 {
+        margin: 30px 50px;
+        min-height: 500px;
+        flex-flow: column;
+        gap: 30px;
+        width: 500px;
+        height: 600px;
+        margin-left: 10px;
+    }
+
+
+    .circle span {
+        font-size: 20px;
+    }
+
+    .circle #span1 {
+        position: relative;
+        top: 60px;
+        left: 50px;
+
+    }
+
+    .circle #span2 {
+        position: relative;
+        top: 60px;
+        left: 55px;
+
+    }
+
+    .circle #span3 {
+        position: relative;
+        top: 100px;
+        left: 26px;
+    }
+
+    .circle #circle1 {
+        position: relative;
+        top: 30px;
+        left: -14px;
+        margin: 0;
+
+    }
+
+    .circle #circle2 {
+        position: relative;
+        top: 25px;
+        left: 8px;
+        margin: 0;
+    }
+
+    .circle #circle3 {
+        position: relative;
+        top: 10px;
+        left: 45px;
+        margin: 0;
+    }
+
+    .skillsprojects button {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .skillsprojects .button {
+        margin-right: 275px;
+    }
+
+    .Portfoliopage {
+        margin-top: 750px;
+        width: 400px;
+        margin-left: 0px;
+    }
+
+    .grid-container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .grid-container .img1 {
+        width: 300px;
+        height: 150px;
+
+
+    }
+
+    .grid-container .img2 {
+        width: 300px;
+        height: 150px;
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .grid-container .img3 {
+        width: 300px;
+        height: 150px;
+        grid-row: 3/4;
+        grid-column: 1/2;
+
+    }
+
+    #img4 {
+        grid-row: 2/3;
+        grid-column: -2/-1;
+    }
+
+    .element {
+        margin-top: 800px;
+
+        margin-left: -200px;
+    }
+
+    .element span {
+        font-size: 35px;
+
+
+    }
+
+    .D0 a {
+        margin-left: 0px;
+        ;
+    }
+}
